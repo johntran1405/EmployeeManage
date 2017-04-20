@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EmployeeManager</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="Health">
+        <item>Weak</item>
+        <item>Normal</item>
+        <item>Good</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ccwav.blogspot.com.employeemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_laucher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".CreateAccountActivity" />
+        <!--Company-->
+        <activity android:name=".Company.NewCompanyActivity" />
+        <activity android:name=".Company.CompanyDetailActivity" />
+        <!--DepartmentActivity-->
+        <activity android:name=".Department.DepartmentActivity" />
+        <activity android:name=".Department.NewDepartmentActivity" />
+        <!--Group-->
+        <activity android:name=".Group.NewGroupActivity" />
+        <activity android:name=".Group.GroupDetailActivity" />
+
+        <activity android:name=".AddMemberActivity" />
+        <activity android:name=".NewTaskActivity" />
+
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".Fragment.CompanyFragment" />
+    </application>
+
+</manifest>
